@@ -2,6 +2,7 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	font-family: 'Mulish', sans-serif;
 }
 
 html, body {
@@ -33,6 +34,7 @@ html, body {
 .info {
 	display: flex;
 	flex-direction: column;
+	padding: 30px;
 }
 
 .details {
@@ -54,21 +56,25 @@ html, body {
 }
 
 .buttons button {
-	border-radius: 20px;
+	border-radius: 35px;
 	background-color: #75c846;
 	border:none;
-	padding: 10px;
+	padding: 20px;
 	color: #FFFFFF;
 }
 
-.details h3 {
+.details h2 {
 	margin-top: 20px;
 	color: #75c846;
 }
 
 hr {
-	background-color: pink;
-	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #D3D3D3;
+	height: 1px;
+	opacity: 0.2;
+	border:none;
 }
 
 .circle {
@@ -86,8 +92,12 @@ hr {
 	margin-top: 25px;
 }
 
-#list {
+#list, #direction{
 	padding-left: 30px;
+}
+
+#direction {
+	margin: 15px 0;
 }
 
 #comp-name {
