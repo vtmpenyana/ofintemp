@@ -35,6 +35,7 @@ html, body {
 	display: flex;
 	flex-direction: column;
 	padding: 10px 30px;
+	line-height: 25px;
 
 }
 
@@ -60,12 +61,17 @@ html, body {
 	background-color: #75c846;
 	border:none;
 	padding: 20px;
+	font-size: 15px;
 	color: #FFFFFF;
 }
 
 .details h2 {
 	margin-top: 20px;
 	color: #75c846;
+}
+
+#list li{
+	margin: 5px 0px;
 }
 
 #list li:last-child {
