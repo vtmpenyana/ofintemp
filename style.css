@@ -47,12 +47,23 @@ html, body {
 }
 
 .buttons {
+	margin-top: 15px;
 	display: flex;
 	justify-content: center;
+	justify-content: space-around;
+}
+
+.buttons button {
+	border-radius: 20px;
+	background-color: #75c846;
+	border:none;
+	padding: 10px;
+	color: #FFFFFF;
 }
 
 .details h3 {
 	margin-top: 20px;
+	color: #75c846;
 }
 
 hr {
