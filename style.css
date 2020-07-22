@@ -34,7 +34,8 @@ html, body {
 .info {
 	display: flex;
 	flex-direction: column;
-	padding: 30px;
+	padding: 10px 30px;
+
 }
 
 .details {
