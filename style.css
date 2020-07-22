@@ -116,3 +116,28 @@ hr {
 	position: absolute;
 	top: 0;
 }
+
+
+@media (min-width: 700px){
+	.display-section {
+	display: flex;
+	justify-content: center;
+	height: 500px;
+}
+}
+
+@media (min-width: 1000px){
+	.display-section {
+	display: flex;
+	justify-content: center;
+	height: 600px;
+}
+}
+
+@media (min-width: 1500px){
+	.display-section {
+	display: flex;
+	justify-content: center;
+	height: 750px;
+}
+}
