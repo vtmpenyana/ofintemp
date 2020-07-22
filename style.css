@@ -26,7 +26,7 @@ html, body {
 }
 
 .info p {
-	height: 140px;
+	height: 90px;
 	overflow-y: scroll;
 }
 
